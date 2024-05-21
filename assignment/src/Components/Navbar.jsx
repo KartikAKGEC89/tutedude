@@ -8,11 +8,11 @@ const Navbar = () => {
         <div class="mr-6">Logo</div>
         <div class="flex flex-row absolute top-4 right-6 text-center gap-6">
           
-        <button class="text-pink-700 border-style: solid rounded-md p-2">
+        <button class="text-pink-700 rounded-md p-2">
           Login
         </button>
         
-        <button class="bg-pink-700 text-white border-style: solid rounded-md p-2">
+        <button class="bg-pink-700 text-white rounded-md p-2">
           Signup
         </button>
           
