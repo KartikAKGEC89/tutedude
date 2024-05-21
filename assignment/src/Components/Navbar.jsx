@@ -1,11 +1,12 @@
 import React from 'react'
 import "./Navbar.css"
+import logo from './assets/Logo.png'
 
 const Navbar = () => {
   return (
     <>
       <div class="flex flex-row pd-2 text-2xl m-5 header">
-        <div class="mr-6">Logo</div>
+        <img src={logo} alt='Logo' className='w-40 logo'/>
         <div class="flex flex-row absolute top-4 right-6 text-center gap-6">
           
         <button class="text-pink-700 rounded-md p-2">

@@ -7,11 +7,35 @@
   .mainsection {
     margin-top: 170px;
     font-size: 24px;
+  }
+  .mainbold {
     font-weight: bold;
   }
 }
 @media screen and (max-width: 430px) {
   .kick {
     font-size: 10px;
+  }
+}
+@media screen and (max-width:430px){
+  .graduation {
+    width: 10px;
+  }
+}
+@media screen and (max-width:600px){
+  .badge {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width:450px){
+  .enroll {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width:700px){
+  .acheivement {
+    display: none;
   }
 }
