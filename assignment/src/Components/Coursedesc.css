@@ -1,0 +1,26 @@
+@media screen and (max-width: 1000px) {
+    .cardcontent {
+        font-size: 15px;
+    }
+    .eye {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .cardcontent {
+        font-size: 10px;
+    }
+    .eye {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cardcontent {
+        font-size: 8px;
+    }
+    .eye {
+        display: none;
+    }
+}
